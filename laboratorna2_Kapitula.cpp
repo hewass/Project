@@ -3,18 +3,18 @@ using namespace std;
 
 int main() {
     double x, y, z;
-    cin >> x >> y >> z;
+    cin >> x >> y;
 
     if (x>y && y>0)
-        z = (x**x)-(y**y);
+        z = (x*x)-(y*y);
     else if (x>y && y<0)
         z = x*y;
     else if (x<y && y>0)
-        z = x+y
+        z = x+y;
     else 
         z = x;
-        
-    cout << z << endl;
+
+    cout << z;
 
     return 0;
 }
