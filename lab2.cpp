@@ -15,5 +15,7 @@ int main() {
     else
         z = x;
 
+    cout << z << endl;
+
     return 0;
 }
