@@ -6,15 +6,6 @@ int main()
     int month;
     cin >> month;
 
-}
-   #include <iostream>
-using namespace std;
-
-int main() 
-{
-    int month;
-    cin >> month;
-
     switch (month) {
         case 12:
         case 1:
@@ -39,4 +30,4 @@ int main()
     }
     return 0;
 }
-   
+    
