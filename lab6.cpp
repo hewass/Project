@@ -28,3 +28,10 @@ double solve() {
     return product;
 }
 
+int main() {
+    double result = solve();
+    
+    cout << fixed << setprecision(15) << result << endl; 
+    
+    return 0;
+}
