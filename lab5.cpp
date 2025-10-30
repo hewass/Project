@@ -23,7 +23,8 @@ int main() {
       
     }
     
-    
+    cout << "sum = " << fixed << setprecision(4) << S << endl;
+    cout << "d = " << fixed << setprecision(4) << d << endl;
 
     return 0;
 }
